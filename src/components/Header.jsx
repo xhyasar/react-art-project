@@ -2,8 +2,6 @@ import logo from '../assets/logo.png';
 //import classes from './Header.module.css';
 import {styled} from "styled-components";
 
-
-
 const StyledHeader = styled.header`
     display: flex;
     flex-direction: column;
@@ -38,8 +36,8 @@ const StyledHeader = styled.header`
 
     @media (min-width: 768px) {
 
-            margin-bottom: 4rem;
-        
+        margin-bottom: 4rem;
+
         & h1 {
             font-size: 2.25rem;
         }
