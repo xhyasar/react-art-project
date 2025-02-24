@@ -5,11 +5,9 @@ export default function CustomInput({label, invalid, ...props}){
     if (invalid) {
         labelClasses += ' text-red-400 ';
         inputClasses += ' text-red-500 bg-red-100 border-red-300 ';
-        console.log('invalid', label );
     } else {
         labelClasses += ' text-stone-300 '
         inputClasses += ' text-gray-700 bg-stone-300 ';
-        console.log('valid', label);
     }
 
     return(
